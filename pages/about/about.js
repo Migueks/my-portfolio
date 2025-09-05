@@ -6,17 +6,17 @@ export const About = () => {
   cleanPage(main);
   main.innerHTML = `
   <section class="about">
-  <h1 class = "hashtag"> About</h1>
+  <h1 class = "hashtag"> Sobre mí</h1>
   <div class="presentation">
     <div class="paragraph-separation">
-      <p> My name is Miguel López-Herrero. I’m 23 years old and based in Málaga, Spain, a city that has become a hub for technology companies. In 2023, I made a bold decision to transition from my career as a fitness freelancer to the dynamic world of programming. Since then, I’ve been fully committed to becoming a <span>Full Stack Web Developer</span>.</p>
-      <p> I have developed skills in JavaScript, React, Node.js, and MongoDB, and gained hands-on experience building and maintaining web applications with Empacthy’s development team. This role has enhanced my technical abilities and teamwork skills.</p>
-      <p> I am passionate about continuous learning and contributing to impactful projects. I’m proactive, solution-focused, and always ready to take on new challenges and grow.</p>   
+      <p> Me llamo Miguel López-Herrero. Tengo 23 años y vivo en Málaga, España. En 2023, tomé la decisión de cambiar de profesión para dedicarme al mundo de la programación. Desde entonces, estoy totalmente comprometido en mi camino para ejercer como desarrollador web full stack.</p>
+      <p> Los lenguajes que más domino son JavaScript, HTML5 y CSS3 aunque también he trabajado con React, Node y MongoDB. En este tiempo he podido aplicar mis conocimientos en proyectos personales y grupales, los cuales me han permitido mejorar mis habilidades técnicas y aprender a trabajar en equipo.</p>
+      <p> Soy una persona curiosa y me encanta estar constantemente aprendiendo. Me apasiona asuminr nuevos retos y crecer  tanto a nivel profesional como personal. </p>   
     </div>
     <img src="/img/Foto-cara.jpg" alt="Foto de perfil" />
   </div>
   <div class="container-title">
-    <h2 class="downBar hashtag"> Tech skills </h2>
+    <h2 class="downBar hashtag">Lenguajes</h2>
     <p class="downBar"></p>
   </div>
   <div class="container">
@@ -48,10 +48,10 @@ export const About = () => {
         <img src="/svg/nodejs.svg" alt="Logo NodeJS" />
         <p> NodeJS </p>
       </div>
-      <div class="languages-card">
-        <img src="/svg/express.svg" alt="Logo Express" />
-        <p> ExpressJS </p>
-      </div>
+      <!-- <div class="languages-card">
+         <img src="/svg/express.svg" alt="Logo Express" />
+         <p> ExpressJS </p>
+      </div> -->
       <div class="languages-card">
         <img src="/svg/mongodb.svg" alt="Logo MongoDB" />
         <p> MongoDB </p>
@@ -64,16 +64,16 @@ export const About = () => {
   </div>
   </div>
   <div class="container-title">
-    <h2 class="downBar hashtag"> Education </h2>
+    <h2 class="downBar hashtag"> Educación </h2>
     <p class="downBar"></p>
   </div>
   <ul class="education">
     <li class="list-item">
-      <span class="bullet"><strong> Técnico Superior en Desarrollo de Aplicaciones Web </strong> • September 2024 - Current</span>
+      <span class="bullet"><strong> Técnico Superior en Desarrollo de Aplicaciones Web </strong> • September 2024 - Actualidad</span>
       <p class="bullet"> ThePower Academy </p>
     </li>
     <li class="list-item">
-      <span class="bullet"><strong> Máster Full Stack Web </strong> • June 2024 - Current</span>
+      <span class="bullet"><strong> Máster Full Stack Web </strong> • June 2024 - Actualidad</span>
       <p class="bullet"> ThePower Academy </p>
     </li>
     <li class="list-item">
@@ -86,30 +86,31 @@ export const About = () => {
     </li>
   </ul>
   <div class="container-title">
-    <h2 class="downBar hashtag"> Language Skills </h2>
+    <h2 class="downBar hashtag"> Idiomas </h2>
     <p class="downBar"></p>
   </div>
   <ul class="tongues">
     <li class="tongues-list">
-      <span class="bullet-2"><strong class="tongue">Spanish</strong> 
+      <span class="bullet-2"><strong class="tongue">Español</strong> 
       </span>
-      <p>🇪🇸 (mothertongue)</p>
+      <p>🇪🇸 (lengua materna)</p>
     </li>
     <li class="tongues-list">
-      <span class="bullet-2"><strong    class="tongue">English</strong> 
+      <span class="bullet-2"><strong class="tongue">Inglés</strong> 
       </span>
-      <p>🇬🇧 (fluent)</p>
+      <p>🇬🇧 (profesional)</p>
     </li>
   </ul>
   <div class="container-title">
-    <h2 class="downBar hashtag"> Hobbies </h2>
+    <h2 class="downBar hashtag"> Aficiones    </h2>
     <p class="downBar"></p>
   </div>
   <section class="hobbies-section">
-    <p>In my free time I enjoy <strong>developing</strong> new projects, such as this website, with the aim of continuing to expand my knowledge and enhance my creativity.</p>
-    <p>The hobby that currently takes most of my time is <strong>fitness</strong>. I started going to the gym in 2020, and from that moment, I committed to transforming my physique. This lifestyle has helped me manage stress and maintain a healthy and balanced life.</p>
-    <p>I like to <strong>read</strong> daily, before going to sleep, about current affairs, finances or personal growth.</p>
-    <p>I am passionate about <strong>traveling</strong> and experiencing new cultures. I try to travel twice a year and spend several weeks exploring different cultures. Getting out of my comfort zone allows me to thrive.</p>
+    <p>En mi tiempo libre disfruto <strong>desarrollando</strong> nuevos proyectos, como este sitio web, con el objetivo de seguir ampliando mis conocimientos y potenciar mi creatividad.</p>
+    <p>Uno de mis mayores aficiones es el fitness. Empecé a ir al gimnasio en 2020 y, desde entonces, me comprometí a transformar mi físico. Este estilo de vida me ha ayudado a gestionar el estrés y a mantener una vida sana y equilibrada.</p>
+    <p>Me gusta <strong>leer </strong> a diario, antes de dormir, sobre actualidad, finanzas o crecimiento personal.</p>
+    <p>Me apasiona viajar y descubrir nuevas culturas. Intento viajar dos veces al año y pasar varias semanas explorando diferentes culturas. ¡Salir de mi zona de confort me mantiene vivo!</p>
+    <p>Por último y no menos importante, la curiosidad me llevó a conocer Bitcoin y ahora soy un apasionado del mundo <strong>Blockchain</strong>.</p>
   </section>
   </section>
   `;

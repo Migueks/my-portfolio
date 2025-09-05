@@ -4,30 +4,40 @@
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
-}
-
-@media (max-width: 770px) {
-  .projects {
-    padding: 0 2rem;
-  }
+  margin-top: 2rem;
 }
 
 .projects > h2 {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 1rem;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
   gap: 8rem;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 810px) {
+  .projects {
+    padding: 1rem 2rem;
+    gap: 0rem;
+  }
   .projects-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5rem;
+  }
+}
+
+@media screen and (min-width: 811px) and (max-width: 1199px) {
+  .projects {
+    padding: 2rem 4rem;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   }
 }

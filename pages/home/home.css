@@ -8,12 +8,6 @@
   gap: 3rem;
 }
 
-@media (max-width: 700px) {
-  .home {
-    padding: 0 2rem;
-  }
-}
-
 .home > h1 {
   font-size: 5.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
@@ -24,4 +18,37 @@
 
 .home > a {
   font-size: 1.5rem;
+}
+
+@media (max-width: 901px) {
+  .home {
+    padding: 0 6rem;
+    height: 85vh;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .home {
+    padding: 0 4rem;
+    /* height: 100vh; */
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+  .home {
+    padding: 0 4rem;
+    height: 95vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    padding: 0 1.5rem;
+    height: 110vh;
+  }
+
+  .home > h1 {
+    font-size: 4.5rem;
+    width: 100%;
+  }
 }

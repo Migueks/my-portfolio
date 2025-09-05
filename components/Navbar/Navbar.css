@@ -7,9 +7,11 @@ nav {
   flex-wrap: wrap;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1070px) {
   nav {
     padding: 0 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -35,4 +37,26 @@ nav a {
 
 nav a:hover {
   color: var(--highlight);
+}
+
+@media (max-width: 650px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 0.75rem;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+
+  nav a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+  }
 }
