@@ -69,19 +69,19 @@ export const About = () => {
   </div>
   <ul class="education">
     <li class="list-item">
-      <span class="bullet"><strong> Técnico Superior en Desarrollo de Aplicaciones Web </strong> • September 2024 - Actualidad</span>
+      <span class="bullet"><strong> Técnico Superior en Desarrollo de Aplicaciones Web </strong> • Septiembre 2024 - Actualidad</span>
       <p class="bullet"> ThePower Academy </p>
     </li>
     <li class="list-item">
-      <span class="bullet"><strong> Máster Full Stack Web </strong> • June 2024 - Actualidad</span>
+      <span class="bullet"><strong> Máster Full Stack Web </strong> • Junio 2024 - Actualidad</span>
       <p class="bullet"> ThePower Academy </p>
     </li>
     <li class="list-item">
-      <span class="bullet"><strong> Desarrollo Aplicaciones con tecnología Web </strong> • April 2024 - June 2024</span>
+      <span class="bullet"><strong> Desarrollo Aplicaciones con tecnología Web </strong> • Abril 2024 - Junio 2024</span>
       <p class="bullet"> Academia Integral </p>
     </li>
     <li class="list-item">
-      <span class="bullet"><strong>Full Stack Web Developer Bootcamp </strong> • September 2023 - April 2024</span>
+      <span class="bullet"><strong>Full Stack Web Developer Bootcamp </strong> • Septiembre 2023 - Abril 2024</span>
       <p class="bullet"> Codespace Academy </p>
     </li>
   </ul>
