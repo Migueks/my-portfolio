@@ -34,7 +34,16 @@ export const projects = [
     link: "https://final-project-miguel.netlify.app/",
   },
   {
-    title: "Proyecto 5 - Próximamente...",
+    title: "Proyecto 5 - API RESTful completa",
+    description:
+      "Proyecto completo de Backend: API RESTful con Node.js y Express, CRUD, autenticación (JWT), subidas de imágenes a Cloudinary y base de datos MongoDB con Mongoose.",
+    image: "../img/node.jpg",
+    tech: ["NodeJS", "Express", "MongoDB"],
+    github: "https://github.com/Migueks/backend-completo.git",
+    link: "https://github.com/Migueks/backend-completo.git",
+  },
+  {
+    title: "Proyecto 6 - Próximamente...",
     description: "Proyecto en construcción",
     image: "../img/comingsoon.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
